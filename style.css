@@ -1,0 +1,25 @@
+*{box-sizing:border-box}
+:root{font-family:Arial,"Noto Sans Telugu",sans-serif;color:#202033;background:#f4f3f9}
+body{margin:0}
+.demo-banner{background:#fff0c2;color:#684900;text-align:center;padding:9px 8px;font-size:12px;font-weight:800;letter-spacing:.3px;border-bottom:1px solid #ead69a}
+header{display:flex;align-items:center;gap:12px;padding:16px;background:#54228f;color:white}
+.brand-mark{width:42px;height:42px;border-radius:13px;background:white;color:#54228f;display:grid;place-items:center;font-size:24px;font-weight:900}
+header h1{font-size:19px;margin:0 0 3px}header small{opacity:.85}
+.profile{margin-left:auto;font-size:23px}
+main{max-width:520px;margin:0 auto;padding:16px}
+.welcome{padding:10px 4px 16px}.welcome h2{margin:4px 0;color:#54228f}.welcome p{margin:5px 0}.muted,.hint{color:#707080;font-size:13px}
+.card{background:white;border-radius:16px;padding:18px;margin:0 0 16px;box-shadow:0 3px 14px #28204b12}
+h3{margin:0 0 16px;font-size:17px}
+label{display:block;font-size:13px;font-weight:700;margin:13px 0 6px}
+input{width:100%;padding:13px;border:1px solid #d9d7e2;border-radius:10px;font-size:16px;outline:none}
+input:focus{border-color:#7542ad;box-shadow:0 0 0 3px #7542ad18}
+button{border:0;border-radius:11px;padding:13px 15px;font-size:14px;font-weight:700;cursor:pointer}
+#payButton{width:100%;margin-top:17px;background:#54228f;color:white}
+.hint{line-height:1.5;margin:10px 0 0}
+.result{margin-top:14px;padding:13px;border-radius:10px;background:#fff0c2;color:#684900;font-weight:700;line-height:1.5}
+.history-heading{display:flex;align-items:center;justify-content:space-between}
+.history-heading h3{margin:0}.clear{background:#eeeaf4;color:#54228f;padding:8px 11px}
+.history{list-style:none;margin:12px 0 0;padding:0}
+.history li{padding:11px 0;border-top:1px solid #eee;font-size:14px;line-height:1.5}
+.empty{color:#777}
+footer{text-align:center;padding:18px 10px 26px;color:#777;font-size:11px}

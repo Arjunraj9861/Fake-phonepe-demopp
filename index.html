@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="te">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HAP Pay Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="demo-banner">DEMO ONLY • నిజమైన చెల్లింపులు జరగవు</div>
+  <header>
+    <div class="brand-mark">H</div>
+    <div><h1>HAP Pay</h1><small>Payment app practice demo</small></div>
+    <span class="profile">👤</span>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <p class="muted">నమస్కారం!</p>
+      <h2>Demo Payment</h2>
+      <p>ఇది నేర్చుకోవడానికి మాత్రమే రూపొందించిన నమూనా.</p>
+    </section>
+
+    <section class="card">
+      <h3>డెమో చెల్లింపు వివరాలు</h3>
+      <label for="mobile">మొబైల్ నంబర్ (కల్పిత నంబర్ వాడండి)</label>
+      <input id="mobile" type="tel" inputmode="numeric" maxlength="10" placeholder="ఉదా: 9000000000">
+      <label for="amount">మొత్తం (₹)</label>
+      <input id="amount" type="number" min="1" max="10000" placeholder="ఉదా: 100">
+      <label for="note">గమనిక (ఐచ్ఛికం)</label>
+      <input id="note" type="text" maxlength="40" placeholder="డెమో కోసం">
+      <button id="payButton">డెమో మాత్రమే — చెల్లింపు జరగదు</button>
+      <p class="hint">ఈ బటన్ నొక్కినా డబ్బు బదిలీ కాదు. నిజమైన UPI / బ్యాంక్ సేవలతో సంబంధం లేదు.</p>
+      <div id="result" class="result" role="status" aria-live="polite" hidden></div>
+    </section>
+
+    <section class="card">
+      <div class="history-heading"><h3>డెమో చరిత్ర</h3><button class="clear" id="clearButton">తొలగించు</button></div>
+      <p class="hint">ఈ పేజీలో మీరు చేసిన స్థానిక ప్రాక్టీస్ ప్రయత్నాలు మాత్రమే కనిపిస్తాయి.</p>
+      <ul id="history" class="history"><li class="empty">ఇంకా డెమో ప్రయత్నాలు లేవు.</li></ul>
+    </section>
+  </main>
+  <footer>HAP Pay Demo • Not affiliated with PhonePe • No real payments</footer>
+  <script src="app.js"></script>
+</body>
+</html>
